@@ -16,7 +16,7 @@ def remv_duty():
     except ValueError:
         print( "Please enter a valid duty number")
 def show_duties():
-    if Duties == 0:
+    if len(Duties) == 0:
         print("No duties , please add duty")
     else:
         for Duty in Duties:
