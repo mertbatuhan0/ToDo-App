@@ -1,5 +1,3 @@
-import os
-from sys import excepthook
 
 print("welcome the To Do List Application")
 print("-----------------------------")
